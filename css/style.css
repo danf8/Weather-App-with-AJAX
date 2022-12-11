@@ -1,0 +1,20 @@
+body{
+    background-image: url('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    width: 900px;
+    height: 900px;
+}
+main{
+    color:black;
+    background-color: rgba(255,255,255,.2);
+    width: 200px;
+}
+div{
+    display: flex;
+}
+p{
+    margin-left: 5px;
+}
+input {
+    border: 5px solid rbga(7,19,237,.3);
+}

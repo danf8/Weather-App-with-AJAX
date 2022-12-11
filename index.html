@@ -10,5 +10,29 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Intro to AJAX</title>
   </head>
-  <body></body>
+  <body>
+    <h1>AJAX Weather Lab</h1>
+    <main>
+    <div>
+        <p>Weather For: </p>
+        <p id="location"></p>
+    </div>
+    <div class="degree">
+        <p>Temperature: </p>
+        <p id="temp"></p>
+    </div>
+    <div class="degree">
+        <p>Feels Like: </p>
+        <p id="feelTemp"></p>
+    </div>
+    <div>
+        <p>Weather: </p>
+        <p id="weather"></p>
+    </div>
+    </main>
+    <form>
+        <input class='city'type="text" placeholder = 'City Name'/>
+        <input type="submit" value="Get Weather Info"/>
+    </form>
+  </body>
 </html>
