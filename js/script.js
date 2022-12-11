@@ -19,7 +19,6 @@ $.ajax({
 }).then(
     (data) =>{
         weatherData = data;
-        console.log(data);
         showData();
         $('.city').val('City Name');
         $('.degree').append($addP)
