@@ -2,7 +2,7 @@ const $location = $('#location');
 const $temp = $('#temp');
 const $feelTemp = $('#feelTemp');
 const $weather = $('#weather');
-const $input = $('input[type="text"]')
+const $input = $('input[type="text"]');
 
 
 let userInput;
@@ -25,7 +25,7 @@ $.ajax({
         $('.degree').append($addP)
     },
     (error)=>{
-        alert('Invalid selection: please enter a valid city name.')
+        alert(`You entered ${userInput} which is not valid. Please enter a valid city name.`)
         $('.city').val('City Name');
     }
 )
